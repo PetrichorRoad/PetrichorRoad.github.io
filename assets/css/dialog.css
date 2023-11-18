@@ -1,0 +1,21 @@
+.info{
+    position: relative;
+}
+.info .dialog{
+    position: absolute;
+    width: 40%;
+    height: 50vh;
+    line-height: 50vh;
+    background-color: #fff;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+    z-index: 999;
+    display: flex;
+    padding-top: 5%;
+}
+.info .dialog img{
+    width: 80%;
+    height: 80%;
+    overflow: hidden;
+}
